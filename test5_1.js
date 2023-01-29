@@ -1,7 +1,6 @@
 let value = +prompt("Введите значение!");
 
-if (typeof value === "number") {
-  if (isNaN(value)) {
+if ((typeof value != "number") || (isNaN(value))) {
     console.log("Упс, кажется, вы ошиблись");
   } else {
     if (value % 2) {
@@ -9,7 +8,4 @@ if (typeof value === "number") {
     } else {
       console.log(" Это четное значение ");
     }
-  }
-} else {
-  console.log("Упс, кажется, вы ошиблись");
 }
