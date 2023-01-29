@@ -5,9 +5,9 @@ if (typeof value === "number") {
     console.log("Упс, кажется, вы ошиблись");
   } else {
     if (value % 2) {
-      console.log(" Это нечетное знчение ");
+      console.log(" Это нечетное значение ");
     } else {
-      console.log(" Это четное знчение ");
+      console.log(" Это четное значение ");
     }
   }
 } else {
